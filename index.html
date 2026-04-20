@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alexandra Doceria</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Doceria Alexandra</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Cardápio</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="all-macarons">
+            <img src="./img/mcr-1.png" class="macaron1">
+            <img src="./img/mcr-2.png" class="macaron2">
+            <img src="./img/mcr-3.png" class="macaron3">
+        </div>
+
+        <div class="list">
+
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/img1.jpeg" alt="img1">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">Doce francês artesanal</p>
+                    <p class="product-name">Macarons</p>
+                    <p class="description">Delicados por fora, macios por dentro e recheados com sabores irresistíveis. 
+        Nossos macarons são feitos com ingredientes selecionados para proporcionar 
+        uma experiência única a cada mordida.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/img3.jpeg" alt="img3">
+                </div>
+                <div class="content">
+                    <p class="product-tag">algo</p>
+                    <p class="product-name">Nome do produto </p>
+                    <p class="description">descrição </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/img2.jpeg" alt="img2">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">algo</p>
+                    <p class="product-name">Nome do produto </p>
+                    <p class="description">descrição </p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+                </svg>
+            </button>
+
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#fff" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
